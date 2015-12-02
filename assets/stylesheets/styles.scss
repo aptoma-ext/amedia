@@ -8,6 +8,8 @@ $clr-titleTextShadow: $clr-bodyText;
 $clr-border: #e7e6e2;
 $clr-quoteBg: #e7e6e2;
 $clr-quoteBorder: #fafafa;
+$clr-factboxBg: #e7e6e2;
+$clr-opinionBg: #e9d14f;
 
 .article {
     background: #fff;
@@ -130,6 +132,25 @@ $clr-quoteBorder: #fafafa;
         text-transform: uppercase;
         padding: 10px 0;
     }
+}
+
+.factbox {
+    margin: 0 -18px 17px;
+    background: $clr-factboxBg;
+    padding: 1px 18px;
+    clear: both;
+    font-size: 16px;
+    line-height: 24px;
+
+    li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.factbox-title {
+    font-size: 19px;
+    line-height: 24px;
 }
 
 .article-byline {
