@@ -43,7 +43,8 @@ $clr-quoteBorder: #fafafa;
     font-size: 20px;
     color: $clr-titleText;
     text-shadow: 1px 1px 1px $clr-titleTextShadow;
-    padding: 0 18px;
+    padding: 0;
+    margin-left: 18px;
     position: absolute;
     bottom: 0;
 }
@@ -102,14 +103,27 @@ $clr-quoteBorder: #fafafa;
 }
 
 .quote {
-    margin: 0 -18px;
+    margin: 0 -18px 17px;
     background: $clr-quoteBg;
     padding: 0 18px;
+    clear: both;
 
     blockquote {
-        padding: 0 0 10px;
+        padding: 18px 0 18px;
         margin: 0;
         border-bottom: 1px solid $clr-quoteBorder;
+        text-align: center;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    blockquote:before {
+        content: '«';
+    }
+
+    blockquote:after {
+        content: '»';
     }
 
     figcaption {
