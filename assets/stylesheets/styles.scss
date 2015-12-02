@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,700italic|Playfair+Display:400,400italic,700,700italic);
+
+$clr-bodyText: #292827;
+$clr-titleText: #fff;
+$clr-publishedText: #686563;
+$clr-captionText: #686563;
+$clr-titleTextShadow: $clr-bodyText;
+$clr-border: #e7e6e2;
+$clr-quoteBg: #e7e6e2;
+$clr-quoteBorder: #fafafa;
+
+.article {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.article img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.article-header {
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.article-header-image > div {
+    padding-bottom: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.article-header-image {
+    position: absolute;
+    width: 100%;
+}
+
+.article-title {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: $clr-titleText;
+    text-shadow: 1px 1px 1px $clr-titleTextShadow;
+    padding: 0 18px;
+    position: absolute;
+    bottom: 0;
+}
+
+.article-preamble {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+    padding: 0 18px;
+    margin: 27px 0;
+}
+
+.article-body {
+    padding: 0 18px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $clr-bodyText;
+
+    p {
+        margin-bottom: 17px;
+    }
+}
+
+.image-full {
+    margin: 0 -18px;
+}
+
+.figure-caption {
+    padding: 18px 18px;
+    font-size: 13px;
+    line-height: 18px;
+    color: $clr-captionText;
+    border-bottom: 1px solid $clr-border;
+}
+
+.image-left {
+    float: left;
+    width: 42%;
+    margin: 0 18px 17px -18px;
+    padding-top: 6px;
+
+    .figure-caption {
+        padding: 5px 10px 13px;
+    }
+}
+
+.image-right {
+    float: right;
+    width: 42%;
+    margin: 0 -18px 17px 18px;
+    padding-top: 6px;
+
+    .figure-caption {
+        padding: 5px 10px 13px 0;
+    }
+}
+
+.quote {
+    margin: 0 -18px;
+    background: $clr-quoteBg;
+    padding: 0 18px;
+
+    blockquote {
+        padding: 0 0 10px;
+        margin: 0;
+        border-bottom: 1px solid $clr-quoteBorder;
+    }
+
+    figcaption {
+        text-transform: uppercase;
+        padding: 10px 0;
+    }
+}
+
+.article-byline {
+    border-top: 1px solid $clr-border;
+    border-bottom: 1px solid $clr-border;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 18px;
+
+    .authors {
+        font-weight: 700;
+    }
+}
+
+.article-published {
+    border-top: 1px solid $clr-border;
+    color: $clr-publishedText;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 18px;
+}
