@@ -119,11 +119,11 @@ $clr-quoteBorder: #fafafa;
     }
 
     blockquote:before {
-        content: '«';
+        content: "\00ab";
     }
 
     blockquote:after {
-        content: '»';
+        content: "\00bb";
     }
 
     figcaption {
