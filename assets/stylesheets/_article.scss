@@ -92,11 +92,24 @@ $textBodyPadding: 18px;
     position: absolute;
     bottom: 0;
     left: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.alf-gt400 .article-title-container {
+    font-size: 24px;
+}
+
+.alf-gt600 .article-title-container {
+    font-size: 40px;
+}
+
+.alf-gt800 .article-title-container {
+    font-size: 66px;
 }
 
 .article-title {
     font-family: "Playfair Display", serif;
-    font-size: 20px;
     color: $clr-titleText;
     text-shadow: 1px 1px 1px $clr-titleTextShadow;
     padding: 0;
