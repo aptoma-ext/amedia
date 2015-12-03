@@ -1,0 +1,194 @@
+$clr-lightGray: #e7e6e2;
+$clr-mediumLightGray: #686563;
+
+$clr-bodyText: #292827;
+$clr-titleText: #fff;
+$clr-publishedText: $clr-mediumLightGray;
+$clr-captionText: $clr-mediumLightGray;
+$clr-titleTextShadow: $clr-bodyText;
+$clr-border: $clr-lightGray;
+$clr-quoteBg: $clr-lightGray;
+$clr-quoteBorder: #fafafa;
+$clr-factboxBg: $clr-lightGray;
+$clr-opinionBg: #e9d14f;
+$textMaxLineLength: 692px;
+$textBodyPadding: 18px;
+
+.article {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    max-width: 1028px;
+}
+
+.article img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.article-header {
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.article-header-image > div {
+    padding-bottom: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.article-header-image {
+    position: absolute;
+    width: 100%;
+}
+
+.article-title {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: $clr-titleText;
+    text-shadow: 1px 1px 1px $clr-titleTextShadow;
+    padding: 0;
+    margin-left: 18px;
+    position: absolute;
+    bottom: 0;
+}
+
+.article-preamble {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+    padding: 0 18px;
+    margin: 27px 0;
+}
+
+.article-body {
+    padding: 0 $textBodyPadding;
+    font-size: 16px;
+    line-height: 24px;
+    color: $clr-bodyText;
+    max-width: $textMaxLineLength;
+    margin: 0 auto;
+
+    p {
+        margin-bottom: 17px;
+    }
+}
+
+.image-full {
+    margin: 0 -18px;
+}
+
+.figure-caption {
+    padding: 18px 18px;
+    font-size: 13px;
+    line-height: 18px;
+    color: $clr-captionText;
+    border-bottom: 1px solid $clr-border;
+}
+
+.image-left {
+    float: left;
+    width: 42%;
+    margin: 0 18px 17px -18px;
+    padding-top: 6px;
+
+    .figure-caption {
+        padding: 5px 10px 13px;
+    }
+}
+
+.image-right {
+    float: right;
+    width: 42%;
+    margin: 0 -18px 17px 18px;
+    padding-top: 6px;
+
+    .figure-caption {
+        padding: 5px 10px 13px 0;
+    }
+}
+
+.quote {
+    margin: 0 -18px 17px;
+    background: $clr-quoteBg;
+    padding: 0 18px;
+    clear: both;
+
+    blockquote {
+        padding: 18px 0 18px;
+        margin: 0;
+        border-bottom: 1px solid $clr-quoteBorder;
+        text-align: center;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    blockquote:before {
+        content: "\00ab";
+    }
+
+    blockquote:after {
+        content: "\00bb";
+    }
+
+    figcaption {
+        text-transform: uppercase;
+        padding: 10px 0;
+    }
+}
+
+.factbox {
+    margin: 0 -18px 17px;
+    background: $clr-factboxBg;
+    padding: 1px 18px;
+    clear: both;
+    font-size: 16px;
+    line-height: 24px;
+
+    li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.factbox-title {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.article-byline-container {
+    border-top: 1px solid $clr-border;
+    border-bottom: 1px solid $clr-border;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 18px 0;
+
+}
+
+.article-byline {
+    padding: 0 $textBodyPadding;
+    max-width: $textMaxLineLength;
+    margin: 0 auto;
+    box-sizing: content-box;
+    .authors {
+        font-weight: 700;
+    }
+}
+
+.article-published-container {
+    border-top: 1px solid $clr-border;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 18px 0;
+}
+
+.article-published {
+    padding: 0 $textBodyPadding;
+    max-width: $textMaxLineLength;
+    color: $clr-publishedText;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
