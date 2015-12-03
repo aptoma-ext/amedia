@@ -21,6 +21,10 @@ $textBodyPadding: 18px;
     margin: 0 auto;
 }
 
+h1 {
+    font-size: inherit;
+}
+
 .article img {
     max-width: 100%;
     display: block;
