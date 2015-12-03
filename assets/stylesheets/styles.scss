@@ -4,8 +4,13 @@
     body {
         overflow-x: hidden;
     }
+
+    .alf-guides {
+        display: none;
+    }
 }
 
 .alf-rev-#{$alf-revision} {
+    @import 'gradients';
     @import 'article';
 }

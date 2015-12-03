@@ -18,6 +18,7 @@ $textBodyPadding: 18px;
     background: #fff;
     font-family: "Open Sans", sans-serif;
     max-width: 1028px;
+    margin: 0 auto;
 }
 
 .article img {
@@ -26,22 +27,71 @@ $textBodyPadding: 18px;
     height: auto;
 }
 
-.article-header {
+.article-header-locked {
     height: 0;
     padding-bottom: 100%;
     position: relative;
+    .article-header-image > div {
+        padding-bottom: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .article-header-image {
+        position: absolute;
+        width: 100%;
+    }
 }
 
-.article-header-image > div {
-    padding-bottom: 100%;
+.article-header-dynamic {
+    position: relative;
+    overflow-y: hidden;
+
+    .article-header-image > img {
+        height: 350px;
+        width: auto;
+        max-width: 1600px;
+    }
+}
+
+.alf-gt400 .article-header-dynamic .article-header-image > img {
+    height: 400px;
+}
+
+.alf-gt450 .article-header-dynamic .article-header-image > img {
+    height: 450px;
+}
+
+.alf-gt500 .article-header-dynamic .article-header-image > img {
+    height: 500px;
+}
+
+.alf-gt600 .article-header-dynamic .article-header-image > img {
+    height: 600px;
+}
+
+.alf-gt700 .article-header-dynamic .article-header-image > img {
+    height: 700px;
+}
+
+.alf-gt800 .article-header-dynamic .article-header-image > img {
+    height: 800px;
+}
+
+.alf-gt900 .article-header-dynamic .article-header-image > img {
+    height: 900px;
+}
+
+.alf-gt1000 .article-header-dynamic .article-header-image > img {
+    height: 1000px;
+}
+
+.article-title-container {
     width: 100%;
-    background-size: cover;
-    background-position: 50%;
-}
-
-.article-header-image {
     position: absolute;
-    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 .article-title {
@@ -51,8 +101,6 @@ $textBodyPadding: 18px;
     text-shadow: 1px 1px 1px $clr-titleTextShadow;
     padding: 0;
     margin-left: 18px;
-    position: absolute;
-    bottom: 0;
 }
 
 .article-preamble {
