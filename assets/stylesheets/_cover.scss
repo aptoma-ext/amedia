@@ -1,0 +1,74 @@
+.cover {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cover-image,
+.cover-image > div {
+    height: 100%;
+}
+
+h1 {
+    font-size: inherit;
+}
+
+.cover img {
+    height: 100%;
+    width: auto;
+    max-width: 10000px;
+    display: block;
+}
+
+.cover-title {
+    position: absolute;
+    top: 20%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+.publication-logo {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+
+.product-title {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    h1 {
+        font-size: 56px;
+        margin: 0;
+        line-height: 1;
+        font-weight: lighter;
+        text-shadow: 1px 1px 5px #444;
+    }
+}
+
+.cover-header-list {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #444;
+    font-family: "Playfair Display", serif;
+    width: 78%;
+    left: 11%;
+
+    h1 {
+        margin: 0;
+        border-bottom: 1px solid #fff;
+        padding: 15px 0;
+    }
+
+    h1:last-child {
+        border-bottom: 0;
+    }
+}
