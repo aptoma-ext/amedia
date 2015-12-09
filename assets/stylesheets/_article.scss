@@ -230,7 +230,8 @@ h1 {
     font-size: 14px;
     line-height: 19px;
     padding: 18px 0;
-
+    display: flex;
+    align-items: center;
 }
 
 .article-byline {
@@ -238,9 +239,33 @@ h1 {
     max-width: $textMaxLineLength;
     margin: 0 auto;
     box-sizing: content-box;
+    flex-grow: 1;
+
     .authors {
         font-weight: 700;
     }
+}
+
+.article-byline-buttons,
+.article-published-buttons {
+    flex-basis: 32 + 32 + 10 + 18px;
+    display: flex;
+}
+
+.article-button-facebook {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    background: url('../gfx/share-facebook.svg') no-repeat;
+    background-size: cover;
+}
+
+.article-button-more {
+    width: 32px;
+    height: 32px;
+    margin-right: 18px;
+    background: url('../gfx/share-expand.svg') no-repeat;
+    background-size: cover;
 }
 
 .article-published-container {
@@ -248,6 +273,8 @@ h1 {
     font-size: 14px;
     line-height: 19px;
     padding: 18px 0;
+    display: flex;
+    align-items: center;
 }
 
 .article-published {
@@ -256,4 +283,5 @@ h1 {
     color: $clr-publishedText;
     margin: 0 auto;
     box-sizing: content-box;
+    flex-grow: 1;
 }
