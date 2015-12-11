@@ -22,7 +22,6 @@ $textBodyPadding: 18px;
 }
 
 h1 {
-    font-size: inherit;
 }
 
 .article img {
@@ -96,20 +95,32 @@ h1 {
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
 .alf-gt400 .article-title-container {
-    font-size: 24px;
+    font-size: 28px;
 }
 
-.alf-gt600 .article-title-container {
+.alf-gt500 .article-title-container {
     font-size: 36px;
 }
 
+.alf-gt600 .article-title-container {
+    font-size: 42px;
+}
+
+.alf-gt700 .article-title-container {
+    font-size: 48px;
+}
+
 .alf-gt800 .article-title-container {
-    font-size: 50px;
+    font-size: 54px;
+}
+
+.alf-gt900 .article-title-container {
+    font-size: 68px;
 }
 
 .article-title {
