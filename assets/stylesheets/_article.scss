@@ -283,6 +283,7 @@ h1 {
 .article-published-buttons {
     flex-basis: 32 + 32 + 10 + 18px;
     display: flex;
+    justify-content: flex-end;
 }
 
 .article-button-facebook {
