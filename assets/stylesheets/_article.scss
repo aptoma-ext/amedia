@@ -321,3 +321,45 @@ h1 {
     box-sizing: content-box;
     flex-grow: 1;
 }
+
+.article-opinion .vignette {
+    color: #e9d14f;
+    margin-bottom: 0;
+    padding: 0 18px;
+    margin-top: 27px;
+    text-transform: uppercase;
+}
+
+.article-opinion .article-preamble {
+    margin-top: 10px;
+}
+
+.article-opinion .quote {
+    background-color: #E9D14F;
+}
+
+.article-opinion .article-biography {
+    padding-bottom: 27px;
+}
+
+.article-opinion .article-biography .biography {
+    background-color: #E9D14F;
+    display: flex;
+}
+
+.article-opinion .article-biography .biography-image {
+    width: 35%;
+}
+
+.article-opinion .article-biography .biography-description {
+    padding-left: 1em;
+    width: 65%;
+}
+
+.article-opinion .article-biography .image-full {
+    margin: 0;
+}
+
+.article-opinion .article-biography .figure-caption {
+    display: none;
+}
