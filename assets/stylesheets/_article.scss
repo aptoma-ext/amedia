@@ -367,8 +367,6 @@ h1 {
 .videocontainer {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 35px;
-    margin-top: 2em;
     height: 0;
     overflow: hidden;
 }
@@ -389,5 +387,53 @@ h1 {
 
     .article .image-left .figure-caption, .article .image-right .figure-caption {
         padding: 18px 18px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .article .image-right, .article .image-left {
+        width: 300px;
+    }
+
+    .article .image-right .figure-caption, .article .image-left .figure-caption {
+        color: #686563;
+    }
+
+    .article .image-left {
+        margin-left: -40px;
+    }
+
+    .article .image-right {
+        margin-right: -40px;
+    }
+
+    .article .image-left .figure-caption {
+        padding-left: 10px;
+    }
+
+    .article .image-right .figure-caption {
+        padding-right: 10px;
+    }
+
+    .article .image-full {
+        margin-left: -39px;
+        margin-right: -39px;
+    }
+
+    .article img {
+        padding-top: 18px;
+    }
+}
+
+.article-video {
+    h1 {
+        color: #292827;
+        font-weight: 800;
+        font-size: 1.7em;
+        text-shadow: none;
+    }
+
+    .article-published-buttons {
+        display: none;
     }
 }
