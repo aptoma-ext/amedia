@@ -418,7 +418,13 @@ h1 {
     .article .image-full {
         margin-left: -155px;
         margin-right: -155px;
+        margin-bottom: 18px;
     }
+
+    .article .image-full img {
+        width: 100%;
+    }
+
 
     .article img {
         padding-top: 18px;
