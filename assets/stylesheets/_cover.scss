@@ -2,7 +2,6 @@
     background: #fff;
     font-family: "Open Sans", sans-serif;
     max-width: 1000px;
-    margin: -45px auto 0;
     position: relative;
 }
 
@@ -66,5 +65,96 @@ h1 {
 
     h1:last-child {
         border-bottom: 0;
+    }
+}
+
+.cover-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.cover-main-story {
+    position: absolute;
+    top: 150px;
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #444;
+    font-family: "Playfair Display", serif;
+    right: 20px;
+    left: 20px;
+
+    h1 {
+        margin: 0;
+        border-bottom: 1px solid #fff;
+        padding: 0;
+    }
+
+    h1:last-child {
+        border-bottom: 0;
+    }
+}
+
+.cover-article-list {
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #444;
+    font-family: "Playfair Display", serif;
+    right: 20px;
+    left: 20px;
+
+    h1 {
+        margin: 0;
+        border-bottom: 1px solid #fff;
+        padding: 15px 0;
+    }
+
+    h1:last-child {
+        border-bottom: 0;
+    }
+}
+
+
+.cover-header {
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 15px;
+    width: 80%;
+    left: 20px;
+
+    .cover img {
+        height: 100%;
+        width: auto;
+        max-width: 10000px;
+        display: inline-block;
+    }
+
+    .publication-logo {
+        height: 30px;
+        padding: 0;
+        border: none;
+    }
+
+    .product-title {
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+        flex-grow: 2;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 0 5px 0 10px;
+
+        h1 {
+            font-size: 18px;
+            font-weight: lighter;
+        }
     }
 }
