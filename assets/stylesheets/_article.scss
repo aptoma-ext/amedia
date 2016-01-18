@@ -172,6 +172,11 @@ h2 {
     margin-top: 17px;
 }
 
+.article-excerpt {
+    max-width: 690px;
+    margin: 0 auto;
+}
+
 .article-body {
     padding: 0 $textBodyPadding;
     font-size: 16px;
