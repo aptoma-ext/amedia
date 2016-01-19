@@ -478,6 +478,7 @@ h2 {
 @media (min-width: 1000px) {
     .article .image-right, .article .image-left {
         width: 300px;
+        clear: both;
     }
 
     .article .image-right .figure-caption, .article .image-left .figure-caption {
