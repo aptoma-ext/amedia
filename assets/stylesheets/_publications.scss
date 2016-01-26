@@ -1,0 +1,46 @@
+$clr-ranablad: #f3c3c3;
+$clr-an: #66268c;
+
+.publication-ranablad {
+  .article-body {
+    .quote {
+      background-color: $clr-ranablad;
+    }
+
+    .factbox {
+      background-color: $clr-ranablad;
+    }
+  }
+
+  .article-opinion {
+    .quote {
+      background-color: $clr-ranablad;
+    }
+
+    .article-biography .biography {
+      background-color: $clr-ranablad;
+    }
+  }
+}
+
+.publication-an {
+  .article-body {
+    .quote {
+      background-color: $clr-an;
+    }
+
+    .factbox {
+      background-color: $clr-an;
+    }
+  }
+
+  .article-opinion {
+    .quote {
+      background-color: $clr-an;
+    }
+
+    .article-biography .biography {
+      background-color: $clr-an;
+    }
+  }
+}

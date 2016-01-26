@@ -350,7 +350,6 @@ h2 {
 }
 
 .article-published-container {
-    border-top: 1px solid $clr-border;
     font-size: 14px;
     line-height: 19px;
     padding: 18px 0;
@@ -413,6 +412,10 @@ h2 {
 }
 
 .biography-image img {
+    padding-top: 0;
+}
+
+.biography-image .image-full img {
     padding-top: 0;
 }
 
