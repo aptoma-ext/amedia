@@ -2,16 +2,6 @@ $clr-ranablad: #f3c3c3;
 $clr-an: #66268c;
 
 .publication-ranablad {
-  .article-body {
-    .quote {
-      background-color: $clr-ranablad;
-    }
-
-    .factbox {
-      background-color: $clr-ranablad;
-    }
-  }
-
   .article-opinion {
     .quote {
       background-color: $clr-ranablad;
@@ -24,18 +14,6 @@ $clr-an: #66268c;
 }
 
 .publication-an {
-  .article-body {
-    .quote {
-      background-color: $clr-an;
-      color: #fff;
-    }
-
-    .factbox {
-      background-color: $clr-an;
-      color: #fff;
-    }
-  }
-
   .article-opinion {
     .quote {
       background-color: $clr-an;
