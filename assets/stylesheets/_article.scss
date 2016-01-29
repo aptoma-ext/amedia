@@ -566,3 +566,14 @@ h2 {
         display: none;
     }
 }
+
+@media (max-width: 700px) {
+    .article-byline-wrapper {
+        max-width: inherit;
+        padding: 0;
+    }
+
+    .article-byline {
+        padding: 0 18px;
+    }
+}
