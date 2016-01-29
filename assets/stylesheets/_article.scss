@@ -494,6 +494,7 @@ h2 {
     .article .image-right, .article .image-left {
         margin: 0 -18px;
         width: inherit;
+        float: none;
     }
 
     .article .image-left .figure-caption, .article .image-right .figure-caption {
@@ -543,7 +544,6 @@ h2 {
     .article .image-full img {
         width: 100%;
     }
-
 
     .article img {
         padding-top: 18px;
