@@ -40,6 +40,7 @@ h2 {
 
 .article a {
     color: $clr-linkText;
+    text-decoration: underline;
 }
 
 .article-header-locked {
@@ -223,6 +224,10 @@ h2 {
     margin: 0 -18px;
 }
 
+.image-full .figure-caption {
+    padding: 16px 18px 18px;
+}
+
 .figure-caption {
     padding: 18px 18px;
     font-size: 13px;
@@ -263,7 +268,7 @@ h2 {
 }
 
 .quote {
-    margin: 0 -18px 17px;
+    margin: 40px -18px 48px;
     background: $clr-quoteBg;
     padding: 0 18px;
     clear: both;
