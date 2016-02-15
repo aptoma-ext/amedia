@@ -11,6 +11,7 @@
 }
 
 .alf-rev-#{$alf-revision} {
+    @import 'alf';
     @import 'gradients';
     @import 'article';
     @import 'cover';
