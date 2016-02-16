@@ -24,6 +24,7 @@ $textBodyPadding: 18px;
 
 h1 {
     font-weight: 400;
+    text-align: center;
 }
 
 h2 {
@@ -43,7 +44,7 @@ h2 {
     text-decoration: underline;
 }
 
-.article-header-locked {
+.article-header {
     position: relative;
 
     .article-header-image > div {
@@ -59,63 +60,21 @@ h2 {
     }
 }
 
-.article-header-dynamic {
-    position: relative;
-    overflow: hidden;
-
-    .article-header-image > img {
-        height: 350px;
-        width: auto;
-        max-width: 1600px;
-    }
-}
-
-.alf-gt400 .article-header-dynamic .article-header-image > img {
-    height: 400px;
-}
-
-.alf-gt450 .article-header-dynamic .article-header-image > img {
-    height: 450px;
-}
-
-.alf-gt500 .article-header-dynamic .article-header-image > img {
-    height: 500px;
-}
-
-.alf-gt600 .article-header-dynamic .article-header-image > img {
-    height: 600px;
-}
-
-.alf-gt700 .article-header-dynamic .article-header-image > img {
-    height: 700px;
-}
-
-.alf-gt800 .article-header-dynamic .article-header-image > img {
-    height: 800px;
-}
-
-.alf-gt900 .article-header-dynamic .article-header-image > img {
-    height: 900px;
-}
-
-.alf-gt1000 .article-header-dynamic .article-header-image > img {
-    height: 1000px;
-}
-
 .article-title-container {
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 1.2;
-    padding-bottom: 18px;
+    padding-top: 0;
+    padding-bottom: 5%;
 }
 
 .article-header-top-title  .article-title-container {
     bottom: auto;
     top: 0;
-    padding-top: 18px;
+    padding-top: 5%;
     padding-bottom: 0;
 }
 
@@ -126,32 +85,32 @@ h2 {
 
 .alf-gt400 .article-header-no-image .article-title,
 .alf-gt400 .article-title-container {
-    font-size: 28px;
+    font-size: 31px;
 }
 
 .alf-gt500 .article-header-no-image .article-title,
 .alf-gt500 .article-title-container {
-    font-size: 36px;
+    font-size: 39px;
 }
 
 .alf-gt600 .article-header-no-image .article-title,
 .alf-gt600 .article-title-container {
-    font-size: 42px;
+    font-size: 45px;
 }
 
 .alf-gt700 .article-header-no-image .article-title,
 .alf-gt700 .article-title-container {
-    font-size: 48px;
+    font-size: 52px;
 }
 
 .alf-gt800 .article-header-no-image .article-title,
 .alf-gt800 .article-title-container {
-    font-size: 54px;
+    font-size: 56px;
 }
 
 .alf-gt900 .article-header-no-image .article-title,
 .alf-gt900 .article-title-container {
-    font-size: 68px;
+    font-size: 62px;
 }
 
 .article-title {
@@ -164,7 +123,10 @@ h2 {
 }
 
 .article-header-no-image {
-    padding: 0 18px;
+    padding: 18px 18px 0;
+    h1 {
+        margin: 0;
+    }
 }
 
 .article-header-no-image .article-title {
