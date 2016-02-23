@@ -1,7 +1,7 @@
 $clr-ranablad: #f3c3c3;
 $clr-an: #66268c;
 
-.publication-ranablad {
+&.publication-ranablad {
   .article-opinion {
     .vignette {
       color: $clr-ranablad;
@@ -17,12 +17,12 @@ $clr-an: #66268c;
   }
 }
 
-.publication-an {
+&.publication-an {
   .article-opinion {
     .vignette {
       color: $clr-an;
     }
-    
+
     .quote {
       background-color: $clr-an;
       color: #fff;
