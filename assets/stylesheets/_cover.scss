@@ -65,6 +65,11 @@ h1 {
     left: 20px;
     line-height: 1.2;
 
+    &.bottom-align {
+        top: auto;
+        bottom: 10%;
+    }
+
     h1 {
         margin: 0;
         padding: 0;
@@ -118,5 +123,62 @@ h1 {
             font-size: 18px;
             font-weight: lighter;
         }
+    }
+}
+
+.cover-header-centered {
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 30px 20px 14px;
+    box-sizing: border-box;
+    width: 170px;
+    margin-left: -85px;
+
+    .product-logo {
+        height: 25px;
+        background-size: contain;
+        margin-bottom: 3px;
+    }
+
+    .product-title {
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+        display: block;
+        text-transform: uppercase;
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.25em;
+        font-weight: 300;
+    }
+
+    .product-date {
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        color: #fff;
+        text-transform: uppercase;
+        padding-top: 10px;
+        margin-top: 16px;
+        font-size: 11px;
+        letter-spacing: 0.1em;
+    }
+}
+
+.alf-gt500 .cover-header-centered {
+    width: 230px;
+    margin-left: -115px;
+
+    .product-logo {
+        height: 44px;
+    }
+
+    .product-title {
+        font-size: 32px;
+        line-height: 1.5;
+        height: 43px;
+    }
+    .product-date {
+        font-size: 13px;
     }
 }

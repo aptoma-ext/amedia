@@ -1,14 +1,31 @@
 <% for (var i = 0; i < 16; i++) { %>
-    <div data-name="Cover - bilde <%= i %>"
-         data-filter-page-pos="1"
-         data-filter-format-name="cover" data-map="article" class="cover alf-template alf-is-responsive">
-        <div class="cover-image alf-container" data-type="image" data-map="cover-image-<%= i %>"></div>
-        <div class="cover-gradient gradient-dark-light-dark"></div>
-        <div class="cover-header alf-is-draggable-y">
-            <div data-map="publication-logo" class="publication-logo alf-container"></div>
-        </div>
-        <div class="cover-main-story alf-is-draggable">
-            <div class="alf-container alf-is-editable" data-map="title"></div>
-        </div>
+<div data-name="Cover - bilde <%= i %>"
+     data-filter-page-pos="1"
+     data-filter-format-name="cover" data-map="article" class="cover alf-template alf-is-responsive">
+    <div class="cover-image alf-container" data-type="image" data-map="cover-image-<%= i %>"></div>
+    <div class="cover-gradient gradient-dark-light-dark"></div>
+    <div class="cover-header alf-is-draggable-y">
+        <div data-map="publication-logo" class="publication-logo alf-container"></div>
     </div>
+    <div class="cover-main-story alf-is-draggable">
+        <div class="alf-container alf-is-editable" data-map="title"></div>
+    </div>
+</div>
+<% } %>
+
+<% for (var i = 0; i < 16; i++) { %>
+<div data-name="Nytt cover - bilde <%= i %>"
+     data-filter-page-pos="1"
+     data-filter-format-name="cover" data-map="article" class="cover cover-100vh alf-template alf-is-responsive">
+    <div class="cover-image cover-image-100vh alf-container" data-type="image" data-map="cover-image-<%= i %>"></div>
+    <div class="cover-gradient gradient-dark-light-dark"></div>
+    <div class="cover-header-centered alf-is-draggable alf-is-resizable">
+        <div class="product-logo alf-is-draggable"></div>
+        <div class="product-title alf-is-editable alf-is-draggable">Helg</div>
+        <div class="product-date alf-container alf-is-editable alf-is-draggable-y alf-is-optional" data-map="product-date"></div>
+    </div>
+    <div class="cover-main-story bottom-align alf-is-draggable">
+        <div class="alf-container alf-is-editable" data-map="title"></div>
+    </div>
+</div>
 <% } %>

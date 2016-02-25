@@ -2,6 +2,11 @@ $clr-ranablad: #f3c3c3;
 $clr-an: #66268c;
 
 &.publication-ranablad {
+  .cover-header-centered {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ranablad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
   .article-opinion {
     .vignette {
       color: $clr-ranablad;
@@ -17,7 +22,36 @@ $clr-an: #66268c;
   }
 }
 
+&.publication-tangotidende {
+  .cover-header-centered {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.tangotidende.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-f-b {
+  .cover-header-centered {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.f-b.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-dt {
+  .cover-header-centered {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.dt.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
 &.publication-an {
+  .cover-header-centered {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.an.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
   .article-opinion {
     .vignette {
       color: $clr-an;
