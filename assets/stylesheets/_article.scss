@@ -39,6 +39,10 @@ h2 {
     height: auto;
 }
 
+.article iframe {
+    max-width: 100%;
+}
+
 .article a {
     color: $clr-linkText;
     text-decoration: underline;
