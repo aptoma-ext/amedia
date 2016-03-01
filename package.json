@@ -1,0 +1,9 @@
+{
+	"version": "1.0.0-beta",
+	"name": "amedia-layoutpreview-templates",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/aptoma-ext/amedia.git"
+	},
+	"private": true
+}
