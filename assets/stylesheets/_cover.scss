@@ -107,6 +107,7 @@ h1 {
     top: 0;
     width: 100%;
     display: flex;
+    pointer-events: none;
 }
 
 .cover-header-left {
@@ -129,6 +130,7 @@ h1 {
     padding: 30px 20px 14px;
     box-sizing: border-box;
     min-width: 170px;
+    pointer-events: all;
 
     .product-logo {
         height: 25px;
