@@ -325,53 +325,22 @@ h2 {
     }
 }
 
-.article-byline-buttons,
-.article-published-buttons {
-    flex-basis: 32 + 32 + 10 + 18px;
-    //display: flex;
-    display: none;
-}
-
-.article-published-buttons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-}
-
-.article-button-facebook {
-    width: 32px;
-    height: 32px;
-    margin-right: 10px;
-    background: url('../gfx/share-facebook.svg') no-repeat;
-    background-size: cover;
-}
-
-.article-button-more {
-    width: 32px;
-    height: 32px;
-    margin-right: 18px;
-    background: url('../gfx/share-expand.svg') no-repeat;
-    background-size: cover;
-}
-
 .article-published-container {
     font-size: 14px;
     line-height: 19px;
-    padding: 18px 0;
+    padding: 18px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     position: relative;
     clear: both;
+    max-width: $textMaxLineLength;
+    box-sizing: content-box;
+    margin: 0 auto;
 }
 
 .article-published {
-    padding: 0 $textBodyPadding;
-    max-width: $textMaxLineLength;
     color: $clr-publishedText;
-    margin: 0 auto;
-    box-sizing: content-box;
     flex-grow: 1;
 }
 
