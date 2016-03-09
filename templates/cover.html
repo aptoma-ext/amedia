@@ -1,6 +1,7 @@
+<% for (map of ['article', 'article-opinion']) { %>
 <div data-name="Cover - header til venstre"
 	 data-filter-page-pos="1"
-	 data-filter-format-name="cover" data-map="article" class="cover cover-100vh alf-template alf-is-responsive">
+	 data-filter-format-name="cover" data-map="<%= map %>" class="cover cover-100vh alf-template alf-is-responsive">
 	<div class="cover-image cover-image-100vh alf-container" data-type="image" data-map="cover-image-*"></div>
 	<div class="cover-gradient gradient-dark-light-dark"></div>
 	<div class="cover-header-box cover-header-left">
@@ -18,7 +19,7 @@
 <div data-name="Cover"
 	 data-filter-page-pos="1"
 	 data-score="1000"
-	 data-filter-format-name="cover" data-map="article" class="cover cover-100vh alf-template alf-is-responsive">
+	 data-filter-format-name="cover" data-map="<%= map %>" class="cover cover-100vh alf-template alf-is-responsive">
 	<div class="cover-image cover-image-100vh alf-container" data-type="image" data-map="cover-image-*"></div>
 	<div class="cover-gradient gradient-dark-light-dark"></div>
 	<div class="cover-header-box cover-header-centered">
@@ -35,7 +36,7 @@
 
 <div data-name="Cover - header til høyre"
 	 data-filter-page-pos="1"
-	 data-filter-format-name="cover" data-map="article" class="cover cover-100vh alf-template alf-is-responsive">
+	 data-filter-format-name="cover" data-map="<%= map %>" class="cover cover-100vh alf-template alf-is-responsive">
 	<div class="cover-image cover-image-100vh alf-container" data-type="image" data-map="cover-image-*"></div>
 	<div class="cover-gradient gradient-dark-light-dark"></div>
 	<div class="cover-header-box cover-header-right">
@@ -49,3 +50,4 @@
 		<div class="alf-container alf-is-editable" data-map="title"></div>
 	</div>
 </div>
+<% } %>
