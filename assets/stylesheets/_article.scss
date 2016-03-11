@@ -303,8 +303,11 @@ h2 {
     line-height: 19px;
     padding: 18px 0;
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+    -webkit-align-items: center;
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
 }
 
 .article-byline-wrapper {
@@ -318,7 +321,7 @@ h2 {
     max-width: $textMaxLineLength;
     margin: 0 auto;
     box-sizing: content-box;
-    flex-grow: 1;
+    -webkit-flex-grow: 1;
 
     .authors {
         font-weight: 700;
@@ -330,8 +333,11 @@ h2 {
     line-height: 19px;
     padding: 18px;
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+    -webkit-align-items: center;
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     position: relative;
     clear: both;
     max-width: $textMaxLineLength;
@@ -341,7 +347,7 @@ h2 {
 
 .article-published {
     color: $clr-publishedText;
-    flex-grow: 1;
+    -webkit-flex-grow: 1;
 }
 
 .article-opinion .vignette {
@@ -380,6 +386,7 @@ h2 {
 .article-opinion .article-biography .biography {
     background-color: #E9D14F;
     display: flex;
+    display: -webkit-flex;
 }
 
 .article-opinion .article-biography .biography-image {
