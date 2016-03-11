@@ -105,23 +105,22 @@ h1 {
 .cover-header-box {
     position: absolute;
     top: 0;
-    width: 100%;
+    left: 4%;
+    right: 4%;
     display: flex;
     pointer-events: none;
 }
 
 .cover-header-left {
     justify-content: flex-start;
-    margin-left: 4%;
 }
 
 .cover-header-centered {
     justify-content: center;
 }
 
-.cover-header-right{
+.cover-header-right {
     justify-content: flex-end;
-    margin-right: 4%;
 }
 
 .cover-header-box-content {
