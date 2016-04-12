@@ -38,6 +38,14 @@ $clr-an: #66268c;
   }
 }
 
+&.publication-rb {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.rb.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
 &.publication-dt {
   .cover-header-box {
     .product-logo {
