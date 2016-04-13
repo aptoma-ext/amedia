@@ -217,12 +217,15 @@ h2 {
 }
 
 .image-left,
-.image-right {
+.image-right,
+.factbox-left,
+.factbox-right {
     width: 42%;
     padding-top: 6px;
 }
 
-.image-left {
+.image-left,
+.factbox-left {
     float: left;
     margin: 0 18px 17px -18px;
 
@@ -231,7 +234,8 @@ h2 {
     }
 }
 
-.image-right {
+.image-right,
+.factbox-right {
     float: right;
     margin: 0 -18px 17px 18px;
 
@@ -271,7 +275,6 @@ h2 {
 }
 
 .article-body .factbox {
-    margin: 0 -18px 17px;
     background: $clr-factboxBg;
     padding: 1px 18px 9px;
     clear: both;
@@ -446,11 +449,16 @@ h2 {
 }
 
 @media (max-width: 700px) {
-    .article .image-right, .article .image-left {
+    .article .image-right, .article .image-left,
+    .article .factbox-right, .article .factbox-left {
         margin: 0 -18px;
         width: inherit;
         float: none;
         padding-top: 0;
+    }
+
+    .article .factbox-right, .article .factbox-left {
+        padding-top: 9px;
     }
 
     .article .image-left .figure-caption, .article .image-right .figure-caption {
@@ -459,14 +467,15 @@ h2 {
 }
 
 @media (min-width: 690px) {
-    .quote, .article-body .factbox {
+    .quote, .article-body .factbox-full {
         margin-left: auto;
         margin-right: auto;
     }
 }
 
 @media (min-width: 1000px) {
-    .article .image-right, .article .image-left {
+    .article .image-right, .article .image-left,
+    .article .factbox-right, .article .factbox-left {
         width: 300px;
         clear: both;
     }
@@ -475,12 +484,16 @@ h2 {
         color: #686563;
     }
 
-    .article .image-left {
+    .article .image-left,
+    .article .factbox-left {
         margin-left: -155px;
+        margin-right: 18px;
     }
 
-    .article .image-right {
+    .article .image-right,
+    .article .factbox-right {
         margin-right: -155px;
+        margin-left: 18px;
     }
 
     .article .image-left .figure-caption {
