@@ -46,6 +46,14 @@ $clr-an: #66268c;
   }
 }
 
+&.publication-sa {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.sa.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
 &.publication-dt {
   .cover-header-box {
     .product-logo {
