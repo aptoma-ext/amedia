@@ -63,11 +63,19 @@ $clr-an: #66268c;
 }
 
 &.publication-dt {
-  .cover-header-box {
-    .product-logo {
-      background: url(https://r.api.no/local/v3/publications/www.dt.no/gfx/small.svg) no-repeat 50%;
+    .cover-header-box {
+        .product-logo {
+            background: url(https://r.api.no/local/v3/publications/www.dt.no/gfx/small.svg) no-repeat 50%;
+        }
     }
-  }
+}
+
+&.publication-oa {
+    .cover-header-box {
+        .product-logo {
+            background: url(https://r.api.no/local/v3/publications/www.oa.no/gfx/small.svg) no-repeat 50%;
+        }
+    }
 }
 
 &.publication-an {
