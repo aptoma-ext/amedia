@@ -78,6 +78,14 @@ $clr-an: #66268c;
     }
 }
 
+&.publication-fremover {
+    .cover-header-box {
+        .product-logo {
+            background: url(https://r.api.no/local/v3/publications/www.fremover.no/gfx/small.svg) no-repeat 50%;
+        }
+    }
+}
+
 &.publication-an {
   .cover-header-box {
     .product-logo {
