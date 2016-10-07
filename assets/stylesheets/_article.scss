@@ -438,6 +438,7 @@ h2 {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
+    margin-top: 18px;
 }
 
 .videocontainer iframe {
@@ -459,10 +460,12 @@ h2 {
 .videocontainer figure {
     position: absolute;
     margin: 0;
+    width: 100%;
 }
 
 .videocontainer img {
-    padding-top: 0;
+    padding-top: 0 !important; /* needed for CSS specificity rules */
+    width: 100%;
 }
 
 .videocontainer .video-play-icon {
