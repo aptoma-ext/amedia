@@ -161,6 +161,22 @@ h2 {
     }
 }
 
+.article-embed-title-container {
+    padding: 0 18px;
+}
+
+.article-embed-title-container .article-title {
+    color: $clr-bodyText;
+    text-shadow: none;
+    font-size: 24px;
+    max-width: 690px;
+    margin: 0 auto;
+
+    h1 {
+        margin-bottom: 0;
+    }
+}
+
 .article-preamble {
     font-weight: 300;
     font-size: 21px;
@@ -533,6 +549,12 @@ h2 {
 
     .article-published-buttons {
         display: none;
+    }
+}
+
+.article-main-embed {
+    iframe {
+        max-height: 80vh;
     }
 }
 
