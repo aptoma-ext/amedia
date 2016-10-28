@@ -41,6 +41,7 @@ h2 {
 
 .article iframe {
     max-width: 100%;
+    border: 0;
 }
 
 .article a {
@@ -554,8 +555,7 @@ h2 {
 
 .article-main-embed {
     iframe {
-        max-height: 80vh;
-        border: 0;
+        max-height: 50vh;
     }
 }
 
