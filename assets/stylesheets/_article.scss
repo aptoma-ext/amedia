@@ -515,12 +515,27 @@ h2 {
         padding-top: 0;
     }
 
+    .article .image-default {
+        width: inherit;
+        margin: 0 -18px;
+    }
+
     .article .factbox-right, .article .factbox-left {
         padding-top: 9px;
     }
 
     .article .image-left .figure-caption, .article .image-right .figure-caption {
         padding: 18px 18px;
+    }
+}
+
+@media (min-width: 700px) {
+    .article .image-default {
+        margin: 0;
+    }
+
+    .article .image-default .figure-caption {
+        padding: 16px 0;
     }
 }
 
