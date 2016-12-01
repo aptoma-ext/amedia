@@ -22,6 +22,14 @@ $clr-an: #66268c;
   }
 }
 
+&.publication-nordlys {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.nordlys.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
 &.publication-tangotidende {
   .cover-header-box {
     .product-logo {
