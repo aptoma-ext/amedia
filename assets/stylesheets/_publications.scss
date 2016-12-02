@@ -1,6 +1,798 @@
 $clr-ranablad: #f3c3c3;
 $clr-an: #66268c;
 
+&.publication-aasavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.aasavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-agderposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.agderposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-akersposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.akersposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-aktuell {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.aktuell.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-amta {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.amta.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-arbeidsmanden {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.arbeidsmanden.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-auraavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.auraavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-austagderblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.austagderblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-avisa-hordaland {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.avisa-hordaland.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-avisa-valdres {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.avisa-valdres.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-avisnavn {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.avisnavn.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ba {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ba.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-blv {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.blv.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-budstikka {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.budstikka.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-bygdeposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.bygdeposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-demokraten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.demokraten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-dittoslo {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.dittoslo.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-eiendomsnett {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.eiendomsnett.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-eikerbladet {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.eikerbladet.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-enebakkavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.enebakkavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-eub {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.eub.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-fagbladet {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.fagbladet.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ialta {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ialta.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ifinnmark {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ifinnmark.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-finnmarkdagblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.finnmarkdagblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-finnmarken {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.finnmarken.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-finnmarksposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.finnmarksposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-firda {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.firda.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-firdaposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.firdaposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-fontene {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.fontene.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-frifagbevegelse {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.frifagbevegelse.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-gat {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.gat.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-gd {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.gd.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-gjengangeren {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.gjengangeren.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-glomdalen {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.glomdalen.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-h-avis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.h-avis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ha-halden {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ha-halden.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-hadeland {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.hadeland.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-hamar-dagblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.hamar-dagblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-hardanger-folkeblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.hardanger-folkeblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-hblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.hblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-helg {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.helg.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-hk-nytt {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.hk-nytt.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-indre {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.indre.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-jarlsbergavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.jarlsbergavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-kampanje {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.kampanje.com/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-kv {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.kv.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-kvinnheringen {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.kvinnheringen.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-laagendalsposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.laagendalsposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-lierposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.lierposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-lofot-tidende {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.lofot-tidende.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-lofotposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.lofotposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-magasinett {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.magasinett.org/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-mb {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.mb.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-moss-avis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.moss-avis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-namdalsavisa {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.namdalsavisa.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-nettverk1 {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.nettverk1.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-nifs {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.nifs.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-noblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.noblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-nord24 {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.nord24.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-norddalen {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.norddalen.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-nordhordland {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.nordhordland.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-nordlys {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.nordlys.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-oblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.oblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-op {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.op.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-opdalingen {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.opdalingen.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-oyene {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.oyene.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-pd {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.pd.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-r-a {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.r-a.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-rjukan-arbeiderblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.rjukan-arbeiderblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-rablad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.rablad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-retten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.retten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-rha {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.rha.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ringblad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ringblad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ringsaker-blad {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ringsaker-blad.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-rogalandsavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.rogalandsavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-rumbarapporten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.rumbarapporten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-salsaposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.salsaposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-sandeavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.sandeavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-sb {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.sb.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-siste {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.siste.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-sognavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.sognavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-solungavisa {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.solungavisa.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-sportmedia {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.sportmedia.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-bladet {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.bladet.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-svelviksposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.svelviksposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-ta {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.ta.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-tek {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.tek.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-telen {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.telen.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-tk {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.tk.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-tvedestrandsposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.tvedestrandsposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-tynset24 {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.tynset24.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-vest24 {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.vest24.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-vestviken24 {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.vestviken24.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-vestbyavis {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.vestbyavis.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-vestlandsnytt {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.vestlandsnytt.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-zett {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.zett.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-polkaposten {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.polkaposten.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
+&.publication-aid {
+  .cover-header-box {
+    .product-logo {
+      background: url(https://r.api.no/local/v3/publications/www.aid.no/gfx/small.svg) no-repeat 50%;
+    }
+  }
+}
+
 &.publication-ranablad {
   .cover-header-box {
     .product-logo {
