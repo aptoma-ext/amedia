@@ -12,9 +12,9 @@
 
 .alf-rev-#{$alf-revision} {
     @import 'alf';
+    @import 'fonts';
     @import 'gradients';
     @import 'article';
     @import 'cover';
     @import 'publications';
-    @import 'fonts';
 }
