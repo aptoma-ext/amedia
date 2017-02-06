@@ -2,21 +2,20 @@
  * Alf fonts
  * These will be available in the font dropdown
  */
-
 @font-face {
   font-family: "gsb";
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
-  src: url('//r.acdn.no/s3files/castor/arena/0.8.17/fonts/guardian/sans/black.woff') format('woff'),
-  url('//r.acdn.no/s3files/castor/arena/0.8.17/fonts/guardian/sans/black.ttf')  format('truetype');
+  src: url('//r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-black.woff') format('woff'),
+  url('//r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-black.ttf')  format('truetype');
 }
 
 @font-face {
   font-family: "gsb";
-  font-weight: bold;
+  font-weight: 900;
   font-style: normal;
-  src: url('//r.acdn.no/s3files/castor/arena/0.8.17/fonts/guardian/sans/italic.woff') format('woff'),
-  url('//r.acdn.no/s3files/castor/arena/0.8.17/fonts/guardian/sans/italic.ttf') format('truetype');
+  src: url('//r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-italic.woff') format('woff'),
+  url('//r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-italic.ttf') format('truetype');
 }
 
 .alf-font-guardian-sans-black {
