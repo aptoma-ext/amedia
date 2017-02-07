@@ -295,6 +295,10 @@ $clr-an: #66268c;
       background: url(https://r.api.no/local/v3/publications/www.ha-halden.no/gfx/small.svg) no-repeat 50%;
     }
   }
+  .article-title {
+    font-family: "gsb", serif;
+    font-weight: bold;
+  }
 }
 
 &.publication-hadeland {
@@ -879,11 +883,16 @@ $clr-an: #66268c;
 }
 
 &.publication-fremover {
-    .cover-header-box {
-        .product-logo {
-            background: url(https://r.api.no/local/v3/publications/www.fremover.no/gfx/small.svg) no-repeat 50%;
-        }
-    }
+  .cover-header-box {
+      .product-logo {
+          background: url(https://r.api.no/local/v3/publications/www.fremover.no/gfx/small.svg) no-repeat 50%;
+      }
+  }
+
+  .article-title {
+    font-family: "gsb", serif;
+    font-weight: bold;
+  }
 }
 
 &.publication-smaalenene {

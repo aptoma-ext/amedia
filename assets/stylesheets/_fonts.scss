@@ -1,0 +1,27 @@
+/**
+ * Alf fonts
+ * These will be available in the font dropdown
+ */
+@font-face {
+  font-family: "gsb";
+  font-weight: 900;
+  font-style: normal;
+  src: url('https://r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-black.woff') format('woff'),
+  url('https://r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "gsb";
+  font-weight: 900;
+  font-style: italic;
+  src: url(https://r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-italic.woff) format('woff'),
+  url('https://r.acdn.no/api/magnum/_assets/v1/fonts/GuardianSansBlack-italic.ttf') format('truetype');
+}
+
+.alf-font-guardian-sans-black {
+  font-family: "gsb", helvetica, arial, sans-serif;
+}
+
+.alf-font-playfair {
+  font-family: "Playfair Display", serif;
+}
